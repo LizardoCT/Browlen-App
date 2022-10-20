@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    scroll-behavior: smooth !important;
+    display: block;
+}
+
+.leafWrapper-1{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    animation-delay: .2s;
+}
+.leafWrapper-2{
+    position: absolute;
+    top: 12%;
+    right: 42%;
+    animation-delay: .4s;
+}
+.leafWrapper-3{
+    position: absolute;
+    top:50%;
+    right: 60%;
+    animation-delay: .6s;
+}
+.leafWrapper-4{
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    animation-delay: .8s;
+}
+.leafWrapper-5{
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    animation-delay: .2s;
+}
+.leaf{
+    object-fit: contain;
+    /* width: 60vw; */
+    height: 7vh;
+    animation: flotar 3s linear infinite;
+}
+@keyframes flotar{
+    0%,
+    100%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+}
+
+@media (max-width: 655px){
+    .leafWrapper-4{
+        display: none;
+    }
+    .leafWrapper-5{
+        display: none;
+    }
+    .leafWrapper-2{
+        top: 14%;
+        right: 5%;
+        animation-delay: 5.2s;
+    }
+    .leafWrapper-3{
+        top: 55%;
+        right: 72%;
+        animation-delay: 1.6s;
+    }
+    .leafWrapper-1{
+        top: 89%;
+        right: 4%;
+        animation-delay: 3.8s;
+    }
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+.navbar-browlen{
+    background: linear-gradient(to top, 
+    rgba(255, 236, 239, 0) 1%, 
+    rgba(255, 236, 239, 0.616) 6%, 
+    rgba(255, 236, 239, 0.753) 13%, 
+    rgba(255,236,239,1) 40%, 
+    rgba(255,236,239,1) 86%);
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    position: fixed !important;
+    z-index: 10;
+}
+.nav-link{
+    display: inline-block !important;
+}
+.navbar-nav .nav-link.active{
+    color: #9c0645 !important;
+    transform: scale(1.2);
+}
+.navbar-browlen h2{
+    font-size: 25px;
+    font-family: 'Abyssinica SIL', serif;
+    font-weight: bold;
+    color: #9c0645;
+}
+.navbar-browlen a{
+    font-size: 15px;
+    letter-spacing: 1.0px;
+    font-weight: 700 !important;
+}
+.logo{
+    height: 5rem;
+}
+
+/* custom buttom */
+#lastnav{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #A82D49 !important;
+    border: 3px solid #A82D49 !important;
+    color: #fff !important;
+    padding: 9px 20px;
+    border-radius: 7px;
+}
+#lastnav a{
+    position: relative;
+    transition: all 0.4s ease-Out;
+    color: #fff !important;
+    text-decoration: none !important;
+    font-size: 15px;
+}
+#slide {
+    width: 100%;
+    height: 100%;
+    left: -200px;
+    background: #FEECEF;
+    position: absolute;
+    transition: all .4s ease-Out;
+    bottom: 0;
+}
+#lastnav:hover #slide {
+    left: 0;
+}
+#lastnav:hover a {
+    color: #A82D49 !important;
+}
+/* custom icon navtoggler */
+.navbar-toggler{
+    border: none !important;
+}
+.navbar-toggler span{
+    filter: opacity(0.7) drop-shadow(0 0 0 #ff0943);
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}

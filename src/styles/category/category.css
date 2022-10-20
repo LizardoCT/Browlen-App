@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+.our-pro{
+    padding-top: 133px;
+}
+.our-pro h2{
+    font-size: 6vh;
+    background: url(../../assets/images/bg2.png) center repeat-x ;
+    color: #fff;
+    padding-bottom: 120px !important;
+    font-family: 'Playfair Display', serif;
+}
+.our-pro h3{
+    color: #9c0746;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-products{
+    background-color: #A82D49 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    width: 130px;
+    border: #A82D49 solid 3px !important;
+}
+.btn-products:hover{
+    background-color: #FFF !important;
+    color: #A82D49 !important;
+    border: #A82D49 solid 3px !important;
+}
+/* custom input radio */
+
+.form-check-input:checked{
+    background-color: #A82D49 !important;
+    border-color: #A82D49 !important;
+    color: #000;
+}
+.form-check-input:focus{
+    box-shadow: none !important;
+}
+label{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #63696e;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    /* transition: color .15 ease-in-out !important; */
+}
+label:hover{
+    color: #000;
+    transition: color .15 ease-in-out !important;
+}
+label .form-check:checked {
+    color: #000 !important;
+}
+
+/* custom cards */
+#pro-card{
+    background-color: none !important;
+}
+
+.img-card{
+    height: 250px;
+    width: 220px !important;
+    object-fit: cover;
+    transition: 1.5 ease-in;
+}
+.card-container:hover{
+    border: 1px solid rgb(235, 179, 192) !important;
+    transition: .1s ease-in;
+    box-shadow: 0 .125rem .55rem rgba(0,0,0,.075)!important;
+    transform: scale(1.03);
+    transition: 1.5 ease-in;
+}

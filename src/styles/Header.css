@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+header{
+    background: url('../assets/images/drops.png') center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 190px;
+    margin-bottom: 200px;
+}
+header h2{
+    color: #9C0645;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+header p{
+    color: rgb(77, 77, 77);
+    font-family: 'Poppins', sans-serif;
+    margin: 15px 0px;
+}
+header button{
+    width: 150px;
+    height: 50px;
+    background-color: #a82d49;
+    border: 3px solid #a82d49;
+    text-align: center;
+    color: #fff;
+    margin: 20px 10px 20px 0;
+    font-weight: bold;
+    border-radius: 7px;
+}
+header button:hover{
+    transition: .2s ease-in-out;
+    background-color: transparent;
+    color: #a82d49;
+}
+
+.cupcake, .muffin, .cheescake{
+    z-index: 2;
+    height: 55vh;
+    margin-left: 70px;
+    position: relative;
+}
+.secondcol{
+    position: relative;
+    bottom: 50px;
+    height: 100%;
+}
+
+#iconsHeader{
+    height: 45px;
+    filter: opacity(0.7) drop-shadow(0 0 0 #ff0943);
+    margin: 0 10px;
+}
+
+@media (max-width: 390px) {
+    header{
+        padding-top: 70px;
+        height: 100vh;
+        /* margin-bottom: 150px; */
+    }
+    header h2{
+        font-size: 35px;
+        margin: 0;
+    }
+    header p{
+        margin: 0;
+    }
+    header h6{
+        display: none;
+    }
+    header button{
+        margin-top: 10px;
+    }
+    #iconsHeader{
+        margin: 30px;
+        display: none;
+    }
+    .header-container{
+        padding-left: 20px;
+        display: grid;
+        justify-content: end !important;
+    }
+    .secondcol{
+        position: relative;
+        bottom: 0;
+    }
+    .cupcake, .muffin, .cheescake{
+        height: 35vh;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    header{
+        padding-top: 70px;
+        height: 100vh;
+        /* margin-bottom: 150px; */
+    }
+    header h2{
+        font-size: 35px;
+        margin: 0;
+    }
+    header p{
+        margin: 0;
+    }
+    header h6{
+        display: none;
+    }
+    header button{
+        margin-top: 10px;
+    }
+    #iconsHeader{
+        margin: 30px;
+        display: none;
+    }
+    .header-container{
+        padding-left: 20px;
+        display: grid;
+        justify-content: end !important;
+    }
+    .secondcol{
+        position: relative;
+        bottom: 0;
+    }
+    .cupcake, .muffin, .cheescake{
+        height: 35vh;
+        margin-left: 50px;
+    }
+}

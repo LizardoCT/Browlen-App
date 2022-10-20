@@ -1,0 +1,143 @@
+.us{
+    padding-top: 133px;
+}
+
+.us h2{
+    font-size: 6vh;
+    color: #fff;
+    background: url(../assets/images/nosotros/bg-browlen.jpg);
+    padding-bottom: 120px !important;
+    font-family: 'Playfair Display', serif;
+}
+
+.us h3{
+    color: #9c0746;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.brow{
+    /* height: auto; */
+    border-radius: 3% !important;
+}
+#us-h6{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    color: #9c0746 !important;
+}
+#us-h6:hover{
+    color: #C14679 !important;
+}
+.p-us{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(77, 77, 77);
+    padding-bottom: 40px;
+}
+
+/* nuestro equipo */
+.img-container1{
+    height: 228px;
+    width: 228px;
+    background: url(../assets/images/nosotros/belen1.jpg) center no-repeat;
+    background-size: 100%;
+    transition: .8s ease;
+}
+.img-container2{
+    height: 228px;
+    width: 228px;
+    background: url(../assets/images/nosotros/belen2.png) center no-repeat;
+    background-size: 100%;
+    transition: .8s ease;
+}
+.img-container3{
+    height: 228px;
+    width: 228px;
+    background: url(../assets/images/nosotros/belen3.jpg) center no-repeat;
+    background-size: 100%;
+    transition: .8s ease;
+}
+.img-container1:hover, .img-container2:hover, .img-container3:hover{
+    background-size: 108%;
+    background-position: center;
+}
+/* cards nosostros */
+
+#nos-card{
+    background: linear-gradient(to bottom, #ffecefab, rgba(255, 255, 255, 0.801));
+    transition: .5 ease-out;
+}
+.card-container:hover{
+    border: 1px solid rgb(235, 179, 192) !important;
+    transition: .1s ease-in;
+    box-shadow: 0 .125rem .55rem rgba(0,0,0,.075)!important;
+    transform: scale(1.03);
+    transition: 1.5 ease-in;
+}
+.card-text{
+    font-family: 'Poppins', sans-serif;
+}
+.social-media{
+    font-size: 40px;
+}
+.social-media a{
+    color: #3b3636e5;
+}
+.social-media a:hover{
+    color: #C14679;
+}
+.page-link{
+    color: #DEDEDE !important;
+    font-size: 5rem !important;
+    border: none !important;
+    cursor: pointer;
+    background: #F5F5F5 !important;
+}
+.page-link p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #999999;
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+}
+.active{
+    color: #EBD2DC !important;
+}
+.active p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #C44679;
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+}
+.page-link:hover{
+    z-index: 10 !important;
+    color: #EBD2DC !important;
+}
+.page-link p:hover{
+    color: #C44679 !important;
+}
+.page-item a{
+    padding: 0 60px !important;
+}
+
+/* media queries movil */
+
+@media (max-width: 655px){
+    #us-h6{
+        padding-top: 40px !important;
+    }
+    .page-link{
+        margin-top: 30px;
+    }
+    .page-item a{
+        padding: 0 20px !important;
+    }
+    .p-us{
+        padding-bottom: 0px;
+    }
+    .page-link p{
+        bottom: 15px;
+        right: 10px;
+    }
+}
