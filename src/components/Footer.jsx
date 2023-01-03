@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
 
           <div className="row text-center pb-3 copyright pt-3">
-            <span>© 2022 Browlen. Todos los derechos reservados. By
+            <span>© 2023 Browlen. Todos los derechos reservados. By
               <a target='blank' className='by' href="https://github.com/LizardoCt">nene.</a>
             </span>
           </div>
