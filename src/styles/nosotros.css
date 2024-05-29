@@ -15,10 +15,47 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.content{
+    display: none;
+}
+
+.active-content{
+    display: block;
+}
+
 .brow{
     /* height: auto; */
-    border-radius: 3% !important;
+    display: none;
 }
+.brow-active{
+    display: block;
+    height: auto;
+    width: 510px !important;
+    border-radius: 10px !important;
+}
+
+.slide-in-right {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
 #us-h6{
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
@@ -35,28 +72,28 @@
 
 /* nuestro equipo */
 .img-container1{
-    height: 228px;
-    width: 228px;
-    background: url(../assets/images/nosotros/belen1.jpg) center no-repeat;
+    height: 200px;
+    width: 200px;
+    background: url(https://media.istockphoto.com/id/1074273082/vector/person-gray-photo-placeholder-woman.jpg?s=612x612&w=0&k=20&c=XhXXk0uHEK0aZA9AgzGhbYPqmWz3Qk2reH9nZ6BO2sM=) center no-repeat;
     background-size: 100%;
     transition: .8s ease;
 }
 .img-container2{
-    height: 228px;
-    width: 228px;
-    background: url(../assets/images/nosotros/belen2.png) center no-repeat;
+    height: 200px;
+    width: 200px;
+    background: url(https://media.istockphoto.com/id/1074273082/vector/person-gray-photo-placeholder-woman.jpg?s=612x612&w=0&k=20&c=XhXXk0uHEK0aZA9AgzGhbYPqmWz3Qk2reH9nZ6BO2sM=) center no-repeat;
     background-size: 100%;
     transition: .8s ease;
 }
 .img-container3{
-    height: 228px;
-    width: 228px;
-    background: url(../assets/images/nosotros/belen3.jpg) center no-repeat;
+    height: 200px;
+    width: 200px;
+    background: url(https://media.istockphoto.com/id/1074273082/vector/person-gray-photo-placeholder-woman.jpg?s=612x612&w=0&k=20&c=XhXXk0uHEK0aZA9AgzGhbYPqmWz3Qk2reH9nZ6BO2sM=) center no-repeat;
     background-size: 100%;
     transition: .8s ease;
 }
 .img-container1:hover, .img-container2:hover, .img-container3:hover{
-    background-size: 108%;
+    background-size: 106%;
     background-position: center;
 }
 /* cards nosostros */
@@ -69,7 +106,7 @@
     border: 1px solid rgb(235, 179, 192) !important;
     transition: .1s ease-in;
     box-shadow: 0 .125rem .55rem rgba(0,0,0,.075)!important;
-    transform: scale(1.03);
+    transform: scale(1.02);
     transition: 1.5 ease-in;
 }
 .card-text{

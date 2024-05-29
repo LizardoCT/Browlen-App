@@ -18,7 +18,6 @@
 }
 .navbar-nav .nav-link.active{
     color: #9c0645 !important;
-    transform: scale(1.2);
 }
 .navbar-browlen h2{
     font-size: 25px;
@@ -27,7 +26,7 @@
     color: #9c0645;
 }
 .navbar-browlen a{
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: 1.0px;
     font-weight: 700 !important;
 }

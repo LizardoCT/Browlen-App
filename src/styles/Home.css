@@ -310,40 +310,34 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.why h5:hover {
-    color: #C14679;
-    cursor: pointer;
-    transition: .2s ease-out;
-}
-
 .why span {
     font-size: 16px;
     color: rgb(87, 87, 87);
     font-family: 'Poppins', sans-serif;
+    cursor: default;
+}
+.why img{
+    transition: .3s ease-in-out;
+}
+.first-card:hover h5,
+.second-card:hover h5,
+.third-card:hover h5,
+.fourth-card:hover h5 {
+    color: #C14679;
+    cursor: default;
+    transition: .2s ease-out;
+}
+.first-card:hover img,
+.second-card:hover img,
+.third-card:hover img,
+.fourth-card:hover img {
+    transform: rotate(-10deg);
+    transition: .5s ease-in-out;
 }
 
 .first-card,
 .third-card {
     border-bottom: 1px dotted rgb(179, 179, 179);
-}
-
-.why .col img {
-    transition: 3s ease-in;
-}
-
-.why .col img:hover {
-    animation: rotation 1.5s infinite;
-    transition: 3s ease-in-out;
-}
-
-@keyframes rotation {
-    100% {
-        transform: rotate(10deg);
-    }
-
-    50% {
-        transform: rotate(-10deg);
-    }
 }
 
 @media (max-width: 655px) {
