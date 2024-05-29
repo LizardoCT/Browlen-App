@@ -72,13 +72,13 @@ const Home = () => {
                   {
                     data.map((item) => (
                       <div className={item.class} key={item.key} >
-                        <img src={item.item} alt="toppings" id='rotation' data-aos="zoom-in"/>
+                        <img src={item.item} alt="toppings" id='rotation'/>
                         <h6 data-aos="zoom-in-up">{item.description}</h6>
                       </div>
                     ))
                   }
                   <div className='center'>
-                    <img src={ingredients} className='img-fluid' data-aos="zoom-in" />
+                    <img src={ingredients} className='img-fluid' />
                   </div>
                 </div>
 

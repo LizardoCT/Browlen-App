@@ -5,6 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 function Navbar() {
 
   return (
+
     <nav className="navbar navbar-expand-lg pt-4 pb-4 navbar-browlen">
       <div className="container">
         <Link className="navbar-brand d-flex ms-2" to="/">
@@ -17,35 +18,32 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
           <ul className="navbar-nav m-auto mb-2 mb-lg-0">
-            <li className="nav-item mx-3">
-              <NavLink className="nav-link" style={isActive => ({
-                color: isActive ? "#333" : "#9c0645"
-              })} to="/">Inicio</NavLink>
+            
+          <li className="nav-item mx-3 active">
+              <NavLink className="nav-link" aria-current="page" to="/">Inicio</NavLink>
             </li>
 
             <li className="nav-item mx-3">
-              <NavLink className="nav-link" style={isActive => ({
-                color: isActive ? "#333" : "#9c0645"
-              })} to="/productos">Productos</NavLink>
+              <NavLink className="nav-link" to="/productos">Productos</NavLink>
             </li>
 
             <li className="nav-item mx-3">
-              <NavLink className="nav-link" style={isActive => ({
-                color: isActive ? "#333" : "#9c0645"
-              })} to='/nosotros'>Nosotros</NavLink>
+              <NavLink className="nav-link" to='/nosotros'>Nosotros</NavLink>
             </li>
           </ul>
 
           <button className="btn btn-outline-success" id='lastnav'>
             <div id='slide'></div>
-              <a href="#" className='fw-bold '>Ordena ahora!</a>
-            </button>
+              <a href="#" className='fw-bold'>Ordena ahora!</a>
+          </button>
 
         </div>
       </div>
     </nav>
-  );
-}
+    
+    
+    );
+  }
 
 export default Navbar;
 
